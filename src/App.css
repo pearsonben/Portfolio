@@ -4,7 +4,7 @@ body,
   margin: 0;
   height: 100%;
   width: 100%;
-  background-color: #F6F6F4;
+  background-color: #f6f6f4;
 }
 
 .name {
@@ -42,7 +42,6 @@ header {
   margin: 0px 1.2rem;
 }
 
-
 article {
   font-size: 0.8rem;
 }
@@ -64,7 +63,11 @@ article {
   margin-bottom: 30px;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   margin: 0.8rem 0px;
 }
 
@@ -83,4 +86,14 @@ footer {
 
 .italic {
   font-style: italic;
+}
+
+.image-figure {
+  width: 800px;
+  margin: 0;
+}
+
+figcaption {
+  text-align: center;
+  opacity: 0.5;
 }
