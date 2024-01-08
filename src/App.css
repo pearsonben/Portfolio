@@ -7,6 +7,10 @@ body,
   background-color: #F6F6F4;
 }
 
+.name {
+  margin: 0;
+}
+
 .app {
   width: 100%;
   display: flex;
@@ -16,7 +20,8 @@ body,
   align-content: center;
 }
 
-.container {
+main {
+  margin: 1rem;
   max-width: 800px;
 }
 
