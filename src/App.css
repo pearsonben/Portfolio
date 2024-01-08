@@ -23,6 +23,8 @@ body,
 main {
   margin: 1rem;
   max-width: 800px;
+  width: 100%;
+  flex: 1 0 auto;
 }
 
 header {
@@ -30,6 +32,10 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+}
+
+.navbar {
+  margin-bottom: 1.4rem;
 }
 
 .nav-link {
@@ -67,9 +73,11 @@ hr {
 }
 
 footer {
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   align-content: center;
+  flex-shrink: 0;
 }

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <header>
+    <header className="navbar">
       <Link style={{ textDecoration: 'none', color: "inherit" }} to="/"><h2 className="name">Ben Pearson</h2></Link>
       <nav className="links">
         <Link to="about">

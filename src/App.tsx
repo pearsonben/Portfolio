@@ -6,8 +6,6 @@ import Projects from "./pages/Projects";
 import About from "./pages/About";
 import Footer from "./components/Footer";
 
-
-
 function App() {
   return (
     <>
@@ -21,9 +19,9 @@ function App() {
               <Route path="projects" element={<Projects />} />
               <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>
-
-            <Footer />
           </main>
+
+          <Footer />
         </div>
       </BrowserRouter>
     </>
