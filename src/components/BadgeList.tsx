@@ -11,11 +11,15 @@ function BadgeList({ badges }: BadgeListProps) {
 
   return (
     <>
-      <div className="tools-list">
-        {badgesToDisplay.map((badge) => (
-          <img key={badge.name} className="badge" height="16px" alt={badge.name} src={badge.link}></img>
-        ))}
-      </div>
+      {badgesToDisplay.map((badge) => (
+        <img
+          key={badge.name}
+          className="badge"
+          height="16px"
+          alt={badge.name}
+          src={badge.link}
+        ></img>
+      ))}
     </>
   );
 }
