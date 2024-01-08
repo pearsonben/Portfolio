@@ -13,7 +13,10 @@ export enum Tool {
     CPlusPlus = "C++",
     Unity = "Unity",
     Dotnet = ".NET",
-    MySql = "MySQL"
+    MySql = "MySQL",
+    Java = "Java",
+    Python = "Python",
+    C = "C"
 }
 
 export interface LanguageBadge {
@@ -77,6 +80,19 @@ export const LanguageBadges: Record<Tool, LanguageBadge> = {
     [Tool.MySql]: {
         name: Tool.MySql,
         link: "https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white"
-    }
+    },
+
+    [Tool.Java]: {
+        name: Tool.Java,
+        link: "https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white"
+    },
+    [Tool.Python]: {
+        name: Tool.Python,
+        link: "https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"
+    },
+    [Tool.C]: {
+        name: Tool.C,
+        link: "https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white"
+    },
 
 }
