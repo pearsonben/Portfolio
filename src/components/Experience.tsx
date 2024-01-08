@@ -6,11 +6,10 @@ const experiences = [
     companyName: "DataScope Systems",
     link: "https://www.datascopesystems.com/",
     timeline: "09/2023 - Current",
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
-        recusandae corporis totam, quod exercitationem officiis nostrum et est
-        iste voluptates placeat dolorum explicabo laudantium dolor dolore ipsum
-        optio quibusdam voluptas molestiae magni doloremque obcaecati aliquam
-        quidem facilis.`,
+    bullets: [
+
+    ],
+    description: `Working on various full-stack .NET Core/TypeScript/React applications, ensuring accessibilty and performance requirements are met. Furthermore, I am working with a group of 3 to dockerise the application suite to optimise the developer workflow.`,
     tools: [
       Tool.CSharp,
       Tool.Dotnet,
@@ -26,7 +25,7 @@ const experiences = [
     companyName: "SGS&CO",
     link: "https://www.sgsco.com/",
     timeline: "04/2022 - 09/2023",
-    description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur vitae voluptatum repellendus suscipit sunt odio dignissimos! Exercitationem, ipsam quas! Ea incidunt magni quam perspiciatis sint reiciendis mollitia voluptatum facilis asperiores, quasi numquam aperiam est perferendis! Nesciunt doloremque labore perspiciatis quam?`,
+    description: `In this role I was part of the automation team, where I was responsible for building the entire SDLC of a full-stack application to aggregate release notes, configuration management and metrics tracking for 3 line of business apps. I optimised and migrated a multitude of legacy stored procedures into EF Core which resulted in a 10x reduction in execution across the board, additionally I maintained and updated a legacy .NET Framework/JQuery application.`,
     tools: [
       Tool.CSharp,
       Tool.Dotnet,
@@ -42,7 +41,8 @@ const experiences = [
     companyName: "Acuity Ultrasonics",
     link: "https://www.acuityultrasonics.com/",
     timeline: "08/2020 - 04/2022",
-    description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, voluptas commodi? Non est voluptate eius, voluptatum cum magni inventore dignissimos aut corporis! Incidunt animi earum doloribus ea molestias maxime? Sed voluptates tenetur, explicabo, omnis impedit provident nisi eius aspernatur eaque, quae beatae.`,
+    description:
+      "After joining straight after my degree, I had the opportunity to work on a range of exciting projects which helped me develop my skills and knowledge in a variety of areas. Responsibilities included refactoring a legacy desktop C++ application into C#, designing and building an internal diagnostics tool to identify mechanical failures in production using WPF, as well as maintaining and improving a WPF application used to scan and process large quantities of high voltage cable data.",
     tools: [Tool.CSharp, Tool.Dotnet, Tool.CPlusPlus, Tool.Unity, Tool.MySql],
   },
 ];
