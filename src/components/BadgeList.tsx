@@ -13,7 +13,7 @@ function BadgeList({ badges }: BadgeListProps) {
     <>
       <div className="tools-list">
         {badgesToDisplay.map((badge) => (
-          <img className="badge" height="16px" alt={badge.name} src={badge.link}></img>
+          <img key={badge.name} className="badge" height="16px" alt={badge.name} src={badge.link}></img>
         ))}
       </div>
     </>

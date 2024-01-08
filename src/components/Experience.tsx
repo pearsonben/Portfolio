@@ -11,14 +11,32 @@ const experiences = [
         iste voluptates placeat dolorum explicabo laudantium dolor dolore ipsum
         optio quibusdam voluptas molestiae magni doloremque obcaecati aliquam
         quidem facilis.`,
-    tools: [Tool.CSharp, Tool.Dotnet, Tool.TypeScript, Tool.React, Tool.Docker, Tool.SqlServer, Tool.Octopus, Tool.TeamCity],
+    tools: [
+      Tool.CSharp,
+      Tool.Dotnet,
+      Tool.TypeScript,
+      Tool.React,
+      Tool.Docker,
+      Tool.SqlServer,
+      Tool.Octopus,
+      Tool.TeamCity,
+    ],
   },
   {
     companyName: "SGS&CO",
     link: "https://www.sgsco.com/",
     timeline: "04/2022 - 09/2023",
     description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur vitae voluptatum repellendus suscipit sunt odio dignissimos! Exercitationem, ipsam quas! Ea incidunt magni quam perspiciatis sint reiciendis mollitia voluptatum facilis asperiores, quasi numquam aperiam est perferendis! Nesciunt doloremque labore perspiciatis quam?`,
-    tools: [Tool.CSharp, Tool.Dotnet, Tool.TypeScript, Tool.JavaScript, Tool.React, Tool.JQuery, Tool.Azure, Tool.SqlServer],
+    tools: [
+      Tool.CSharp,
+      Tool.Dotnet,
+      Tool.TypeScript,
+      Tool.JavaScript,
+      Tool.React,
+      Tool.JQuery,
+      Tool.Azure,
+      Tool.SqlServer,
+    ],
   },
   {
     companyName: "Acuity Ultrasonics",
@@ -37,6 +55,7 @@ function Experience() {
 
       {experiences.map((x) => (
         <ExperienceListing
+          key={x.companyName}
           companyName={x.companyName}
           link={x.link}
           description={x.description}
