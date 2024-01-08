@@ -1,0 +1,69 @@
+html,
+body,
+#root {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #F6F6F4;
+}
+
+.app {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.container {
+  max-width: 800px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-link {
+  margin: 0px 1.2rem;
+}
+
+
+article {
+  font-size: 0.8rem;
+}
+
+.centered {
+  text-align: center;
+}
+
+.job-timeline {
+  opacity: 0.5;
+}
+
+.badge {
+  margin: 0px 0.1rem;
+  border-radius: 3px;
+}
+
+.experience {
+  margin-bottom: 60px;
+}
+
+.tools-
+{
+  display: flex;
+  margin-bottom: 0.4rem;
+  margin-top: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0.8rem 0px;
+}
+
+hr {
+  margin: 0;
+}
