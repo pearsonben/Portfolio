@@ -97,3 +97,8 @@ figcaption {
   text-align: center;
   opacity: 0.5;
 }
+
+th{
+  padding-right: 1rem;
+  text-align: left;
+}

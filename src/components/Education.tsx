@@ -1,5 +1,5 @@
 import BadgeList from "./BadgeList";
-import { Tool } from "../assets/badges";
+import { Tool } from "../badges";
 
 const tools: Tool[] = [Tool.Java, Tool.C, Tool.Python];
 

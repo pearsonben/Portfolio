@@ -1,4 +1,4 @@
-import { Tool, LanguageBadge, LanguageBadges } from "../assets/badges";
+import { Tool, LanguageBadge, LanguageBadges } from "../badges";
 
 interface BadgeListProps {
   badges: Tool[];

@@ -1,4 +1,4 @@
-import { Tool } from "../assets/badges";
+import { Tool } from "../badges";
 import ExperienceListing from "./ExperienceListing";
 
 const experiences = [

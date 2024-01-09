@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import IMAGES from "../images/images";
+import IMAGES from "../images";
 
 function About() {
   return (
