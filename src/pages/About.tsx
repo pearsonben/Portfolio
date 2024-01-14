@@ -31,7 +31,7 @@ const About = () => {
           <figure className="image-figure">
             <img
               width="600px"
-              src="/BOG.jpg"
+              src="/assets/BOG.jpg"
               alt="reggie-in-field"
             ></img>
             <figcaption>(bonus dog picture)</figcaption>
