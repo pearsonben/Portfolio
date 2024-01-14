@@ -1,32 +1,39 @@
-
 function Bio() {
   return (
     <section className="bio">
-            <h3 className="centered">Software Developer based in Chester.</h3>
-            <article>
-              Hi, I'm Ben. I studied Electronic Engineering at the university of York where I
-              learned that I was <span className="italic">much</span> more interested in programming than
-              tinkering with circuit boards. Now, I'm a full-stack developer
-              working for{" "}
-              <span>
-                <a href="https://www.datascopesystems.com/">
-                  DataScope Systems
-                </a>
-              </span>
-              . Previously, I worked for{" "}
-              <span>
-                <a href="https://www.sgsco.com/">SGS&CO</a>
-              </span>{" "}
-              and{" "}
-              <span>
-                <a href="https://www.acuityultrasonics.com/">
-                  Acuity Ultrasonics
-                </a>
-                .
-              </span>
-            </article>
-          </section>
-  )
+      <article>
+        <table>
+          <tr>
+            <th>Name</th>
+            <td>Ben Pearson</td>
+          </tr>
+          <tr>
+            <th>Nationality</th>
+            <td>Welsh 🏴󠁧󠁢󠁷󠁬󠁳󠁿</td>
+          </tr>
+          <tr>
+            <th>Location</th>
+            <td>Cheshire</td>
+          </tr>
+          <tr>
+            <th>Speaks</th>
+            <td>English, Welsh, German (B2)</td>
+          </tr>
+          <tr>
+            <th>Degree</th>
+            <td>BEng Electronic Engineering, University of York</td>
+          </tr>
+          <tr>
+            <th>Skills</th>
+            <td>
+              C#, .NET, TypeScript, JavaScript, React, Azure, SQLServer,
+              PostgreSQL, Docker
+            </td>
+          </tr>
+        </table>
+      </article>
+    </section>
+  );
 }
 
-export default Bio
+export default Bio;

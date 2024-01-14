@@ -1,62 +1,45 @@
-import { Link } from "react-router-dom";
-import IMAGES from "../images";
-
-function About() {
+const About = () => {
   return (
     <>
       <section className="about">
         <h4>About</h4>
         <article>
           <p>
-            I'm a Chester-based software developer with full-stack experience. I
-            mostly work with ASP.NET Core on the backend, TypeScript/React on
-            the frontend and Azure/Github for CI/CD. I really enjoy learning
-            stuff, and at some point when I find a bit of free time (😅) I would
-            love to add <Link to="https://elixir-lang.org/">elixir</Link> to my
-            skillset, as well as learn more about microservices.
+            Full-Stack Developer based in Chester with 3 years of experience,
+            building backends in .NET, frontends in React/TypeScript and
+            managing deployments using Docker/Azure. Currently, I work for{" "}
+            <span>
+              <a href="https://www.datascopesystems.com/">DataScope Systems</a>
+            </span>{" "}
+            where I was brought in to help develop a new delivery management
+            system to be served to hundreds of large scale clients in the
+            construction industry. Previosly, I worked at{" "}
+            <span>
+              <a href="https://www.sgsco.com/">SGS&CO</a>
+            </span>{" "}
+            and{" "}
+            <span>
+              <a href="https://www.acuityultrasonics.com/">Acuity Ultrasonics</a>
+            </span>.
           </p>
+          <br></br>
           <p>
             When not working, I spend most of my time reading, rock climbing,
-            and playing the occasional indie game. I also have a working breed
-            dog who I spend a lot of time training and walking.
+            and playing video games. I also have a working breed dog who takes
+            up a lot of my time with training and walking.
           </p>
           <figure className="image-figure">
-            <img width="800px" src={IMAGES.bog} alt="reggie-in-field"></img>
-            <figcaption>Me teasing the dog.</figcaption>
+            <img
+              width="600px"
+              src="https://private-user-images.githubusercontent.com/47435728/296617153-16d6cfb8-2e9f-44b4-96f7-9c736b38aff5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDUyNjcyOTQsIm5iZiI6MTcwNTI2Njk5NCwicGF0aCI6Ii80NzQzNTcyOC8yOTY2MTcxNTMtMTZkNmNmYjgtMmU5Zi00NGI0LTk2ZjctOWM3MzZiMzhhZmY1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAxMTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMTE0VDIxMTYzNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTMwMWI4ZWI3NDlmNjA2YWE0MjE4ZWQzYmZiZTg3ZjEwYzM3NGM5NGRhNzg0NWQxMjQ4MmQ4ZTJiZGQ5Nzk4ZDgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.LPEzABDtVyr9UoAv0W9HbG8eOLZQaqjOiCBUZeqEw_0"
+              alt="reggie-in-field"
+            ></img>
+            <figcaption>(bonus dog picture)</figcaption>
           </figure>
-        </article>
-        <h4>Profile</h4>
-        <article>
-          <table>
-            <tr>
-              <th>Name</th>
-              <td>Ben Pearson</td>
-            </tr>
-            <tr>
-              <th>Nationality</th>
-              <td>Welsh 🏴󠁧󠁢󠁷󠁬󠁳󠁿</td>
-            </tr>
-            <tr>
-              <th>Location</th>
-              <td>Cheshire</td>
-            </tr>
-            <tr>
-              <th>Speaks</th>
-              <td>English, Welsh, German (B2)</td>
-            </tr>
-            <tr>
-              <th>Degree</th>
-              <td>BEng Electronic Engineering, University of York</td>
-            </tr>
-            <tr>
-              <th>Skills</th>
-              <td>C#, .NET, TypeScript, JavaScript, React, Azure, SQLServer, PostgreSQL, Docker</td>
-            </tr>
-          </table>
         </article>
       </section>
     </>
   );
-}
+};
 
 export default About;
